@@ -1,36 +1,36 @@
 {
-  "name": "p-1303",
-  "bucket": "p-1303",
+  "name": "p-1303-20250404194959",
+  "bucket": "p-1303-20250404194959",
   "preset": "react",
   "env": "production",
-  "prefix": "20250324130609",
+  "prefix": "20250404194958",
   "not-first-run": true,
   "function": {
-    "id": 41598,
+    "id": 42353,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "azion/args.json",
-    "instance-id": 39375,
+    "instance-id": 39897,
     "instance-name": "__DEFAULT__",
     "cache-id": 0
   },
   "application": {
-    "id": 1742825848,
+    "id": 1743798572,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1742824788,
-    "name": "p-1303",
-    "domain_name": "q29w2xki0l.map.azionedge.net",
-    "url": "https://q29w2xki0l.map.azionedge.net"
+    "id": 1743796491,
+    "name": "p-1303-20250404194959",
+    "domain_name": "l1dn76jg38.map.azionedge.net",
+    "url": "https://l1dn76jg38.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 201854,
-      "origin-key": "def8f52b-47f1-4fd3-8153-46d80d59b29c",
+      "origin-id": 205718,
+      "origin-key": "5609e617-8ea7-44fd-b3b5-73ec9d732adb",
       "name": "origin-storage-default"
     }
   ],
@@ -38,17 +38,17 @@
     "created": false,
     "rules": [
       {
-        "id": 384716,
+        "id": 392257,
         "name": "Set Storage Origin for All Requests",
         "phase": "request"
       },
       {
-        "id": 384717,
+        "id": 392258,
         "name": "Deliver Static Assets",
         "phase": "request"
       },
       {
-        "id": 384718,
+        "id": 392259,
         "name": "Redirect to index.html",
         "phase": "request"
       }
